@@ -2,13 +2,14 @@
 //OUTPUT: Product = 2.69
 #include<stdio.h>
 int main() 
-    {//correct the code
+    {
+      //correct the code
     double a,b,product;
-    /p/printf("Enter two numbers\n");
-    scanf("%f%f",a,b);  //correct the code
+    printf("Enter two numbers\n");
+    scanf("%lf%lf",&a,&b);  //correct the code
      
-    product = a*b;
+    product = a * b;
     // Result up to 2 decimal point is displayed using %.2lf
-    printf("Product=%.2f",product);
-return 0   // correct the code
+    printf("Product = %.2f",product);
+return 0;  // correct the code
 }
